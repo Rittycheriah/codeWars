@@ -12,6 +12,6 @@ var numberToPrice = function(number1) {
     toCommafy[0] = toCommafy[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     return toCommafy.join(".");
   } else {
-    return 'NaN';
+    return 'undefined';
   }
 }
